@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="veiwport content='width=device-width, initial-scale=1.0">
+    <title>Sathish Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" , alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            The title <strong>of my project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">TCP-IP Chat room</p>
+        <img src="img1/tcp_ip.jpg" alt="my image" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-induvidual">
+        <p>TCP-IP ChatRoom, using socket programming I have created the client side and the server side. The process of the
+            server to receive the message from all the clients and broadcaste the message to the other clients.
+        </p>
+        <p>In the Server side, the server is binded to the particular to the IP address and to specific port number, Now the
+            server in the active state, now it starts to listen for the client users. Wheneven the Client get connectedd to
+            particular IP and port number, TCP-IP connection is laid between the user and the server, starts receives messages
+            from the client and ready to send the msgs from the other clients</p>
+        <p>In the client side, the client will try to reach the server's IP address and the port number. If its falied to
+            connect, it seems the server is inactive or the client side problems. If the client get conneted to the server, now
+            the user can able to receive the messages from the other clients whoever connected to the clients and client can
+            able to send the msg to the server and server will broadcaste the msgs to all clients</p>
+        <div class='btn-center'>
+            <a href="https://github.com/sathish-selvan/TCP-IP-chat-room" class="btn">Source code</a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="sathish.t2000@gmail.com" class="footer-link">sathish.t2000@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/sathish-selvan" class="social-list__link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/sathish_selvan17/" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/sathish-selvan-56a508180/" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.hackerrank.com/sathish_t2000" class="social-list__link">
+                    <i class="fab fa-hackerrank"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+    <body>
+
+</html>

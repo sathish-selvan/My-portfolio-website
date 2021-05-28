@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="veiwport content='width=device-width, initial-scale=1.0">
+    <title>Sathish Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" , alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home" >
+        <h1 class="section__title section__title--intro" >
+            Hi, I am <strong> Sathish </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">python developer</p>
+        <img src="img/my_pic1.JPG" alt="my image" class="intro__img">
+    </section>
+
+    <!-- My_Projects -->
+    <section class="my_projects" id="projects">
+        <h2 class="project__title project__title--projects">Projects I have done</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Sales Report Website</h3>
+                <p>Using Django, Created a sales report website, where you can manage your database and get report
+                    about the sales occured in the specific duration. CSV files can also be uploaded and converted to
+                    sales objects and the report pdf can be obtained. Reports consists of sales data, and the data converted
+                    to charts for user visionery.Charts are created using matplotlib.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>TCP/IP room chatbox</h3>
+                <p>TCP/IP connection laid bettwen the local devices using
+                    socket programming.This consists of two logical states i.e server and the client.
+                    The server receives the message for the client, and broadcaste the message to the clients connected
+                    to the server. In this manner you can able to communicate between your end to end devices through 
+                    binding the particular port number.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>E-Commerce website backend management</h3>
+                <p>Using Flask framework, the E-commerce backend for the user database is created, the products objects in the
+                databse is dynamicaly upataded in the front_end part. Features such as User creation for Sign-up and User Authendication 
+                for Sign-in is made, the created User object is stored in the database. User_Password is get hashed and stored in the database, thus
+                the password of the specific user is get secured.User can buy stuffs from the website and it gets stored in the database.
+                </p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class= "about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Im a python developer</p>
+
+        <div class="about-me__body">
+            <p>Hi Im Sathish, Python developer. I have worked over the python modules such as Tkinter, Pygame, Opencv, Turtle, etc. 
+                Im now interested in the feild of Web designing and the back_end development using Django and Flask.</p>
+            <p>Im an enthusiatic learner, always find the interesting technology and learn indepth concept and like to create projects over the things I have learnt. 
+                I need in help on ReactJs, anyone who has willingness to combine and do projects on react or python your are always welcome.
+                </p>
+        </div>
+        <img src="img/my_pic3.jpg" class="about-me__img" alt="">
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work" >
+        <h2 class="section__title section__title--work" >My work</h2>
+        <p class="section__subtitle section__subtitle--work">Some projects that I have done</p>
+
+        <div class="portfolio">
+            <!-- porfolio item 1 -->
+            <a href="portfolio_item1.html" class="portfolio__item">
+                <img src="img1/django_market.jpg" class="portfolio__img" alt="">
+            </a>
+
+            <!-- porfolio item 2 -->
+            <a href="portfolio_item2.html" class="portfolio__item">
+                <img src="img1/django_sales.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 3 -->
+            <a href="portfolio_item3.html" class="portfolio__item">
+                <img src="img1/flask_market.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 4 -->
+            <a href="portfolio_item4.html" class="portfolio__item">
+                <img src="img1/tcp_ip.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 5 -->
+            <a href="portfolio_item5.html" class="portfolio__item">
+                <img src="img1/connect.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 6 -->
+            <a href="portfolio_item6.html" class="portfolio__item">
+                <img src="img1/vizualizer.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 7 -->
+            <a href="portfolio_item7.html" class="portfolio__item">
+                <img src="img1/flappy_bird.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 8 -->
+            <a href="portfolio_item8.html" class="portfolio__item">
+                <img src="img1/snake.jpg" class="portfolio__img"  alt="">
+            </a>
+
+            <!-- porfolio item 9 -->
+            <a href="portfolio_item9.html" class="portfolio__item">
+                <img src="img1/python_turtle.jpg" class="portfolio__img"  alt="">
+            </a>
+        </div>
+    </section>
+    
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="sathish.t2000@gmail.com" class="footer-link">sathish.t2000@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/sathish-selvan" class="social-list__link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/sathish_selvan17/" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/sathish-selvan-56a508180/" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.hackerrank.com/sathish_t2000" class="social-list__link">
+                    <i class="fab fa-hackerrank"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+<body>
+</html>

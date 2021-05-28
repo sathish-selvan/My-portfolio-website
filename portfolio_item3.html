@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="veiwport content='width=device-width, initial-scale=1.0">
+    <title>Sathish Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" , alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#projects" class="nav__link">My Projects</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            The title <strong>of my project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Flask Market</p>
+        <img src="img1/flask_market.jpg" alt="my image" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-induvidual">
+        <p>Flask Market, flask works on the concepts of MVC, {Model, Views, Control}. Flask is an microframe work, mosty used to
+            create Api. For small scale application flask works fantasticaly, while moving towards the large scale application,
+            Django will be recommended by all.
+        </p>
+        <p>Unlike in Django, in Flask we dont have any of the middleware to support our User-Authendication and the DataBase
+            Vizualization. Everything should be done by our own, that the best part, If your new to django, kindly spend some
+            time in the flask, you can able to figure whats the things get happening behind, this will be very useful and you
+            will be get cleared about everything when you move to django</p>
+        <p>In this market Application, the front_end par is created using the HTML and CSS Bootstrap, flask-forms are used to
+            create the Sign-up and Sign-in pages, the Validation and authedenticaion should be managed by own query part. Valid
+            User can able to buy the products in the market are added into the cart , add can able to sell this them to put back
+            in the original position</p>
+        <div class='btn-center'>
+            <a href="https://github.com/sathish-selvan/flask_app" class="btn">Source code</a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a href="sathish.t2000@gmail.com" class="footer-link">sathish.t2000@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/sathish-selvan" class="social-list__link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.instagram.com/sathish_selvan17/" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/sathish-selvan-56a508180/" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.hackerrank.com/sathish_t2000" class="social-list__link">
+                    <i class="fab fa-hackerrank"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+    <body>
+
+</html>
